@@ -1,0 +1,109 @@
+2026-02-25 19:52:14,916 - INFO - 开始训练...
+2026-02-25 19:52:14,917 - INFO - 配置信息: {'__name__': 'config', '__doc__': None, '__package__': '', '__loader__': <_frozen_importlib_external.SourceFileLoader object at 0x7f63e1583810>, '__spec__': ModuleSpec(name='config', loader=<_frozen_importlib_external.SourceFileLoader object at 0x7f63e1583810>, origin='/home/aistudio/config.py'), '__file__': '/home/aistudio/config.py', '__cached__': '/home/aistudio/__pycache__/config.cpython-37.pyc', '__builtins__': {'__name__': 'builtins', '__doc__': "Built-in functions, exceptions, and other objects.\n\nNoteworthy: None is the `nil' object; Ellipsis represents `...' in slices.", '__package__': '', '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': ModuleSpec(name='builtins', loader=<class '_frozen_importlib.BuiltinImporter'>), '__build_class__': <built-in function __build_class__>, '__import__': <built-in function __import__>, 'abs': <built-in function abs>, 'all': <built-in function all>, 'any': <built-in function any>, 'ascii': <built-in function ascii>, 'bin': <built-in function bin>, 'breakpoint': <built-in function breakpoint>, 'callable': <built-in function callable>, 'chr': <built-in function chr>, 'compile': <built-in function compile>, 'delattr': <built-in function delattr>, 'dir': <built-in function dir>, 'divmod': <built-in function divmod>, 'eval': <built-in function eval>, 'exec': <built-in function exec>, 'format': <built-in function format>, 'getattr': <built-in function getattr>, 'globals': <built-in function globals>, 'hasattr': <built-in function hasattr>, 'hash': <built-in function hash>, 'hex': <built-in function hex>, 'id': <built-in function id>, 'input': <built-in function input>, 'isinstance': <built-in function isinstance>, 'issubclass': <built-in function issubclass>, 'iter': <built-in function iter>, 'len': <built-in function len>, 'locals': <built-in function locals>, 'max': <built-in function max>, 'min': <built-in function min>, 'next': <built-in function next>, 'oct': <built-in function oct>, 'ord': <built-in function ord>, 'pow': <built-in function pow>, 'print': <built-in function print>, 'repr': <built-in function repr>, 'round': <built-in function round>, 'setattr': <built-in function setattr>, 'sorted': <built-in function sorted>, 'sum': <built-in function sum>, 'vars': <built-in function vars>, 'None': None, 'Ellipsis': Ellipsis, 'NotImplemented': NotImplemented, 'False': False, 'True': True, 'bool': <class 'bool'>, 'memoryview': <class 'memoryview'>, 'bytearray': <class 'bytearray'>, 'bytes': <class 'bytes'>, 'classmethod': <class 'classmethod'>, 'complex': <class 'complex'>, 'dict': <class 'dict'>, 'enumerate': <class 'enumerate'>, 'filter': <class 'filter'>, 'float': <class 'float'>, 'frozenset': <class 'frozenset'>, 'property': <class 'property'>, 'int': <class 'int'>, 'list': <class 'list'>, 'map': <class 'map'>, 'object': <class 'object'>, 'range': <class 'range'>, 'reversed': <class 'reversed'>, 'set': <class 'set'>, 'slice': <class 'slice'>, 'staticmethod': <class 'staticmethod'>, 'str': <class 'str'>, 'super': <class 'super'>, 'tuple': <class 'tuple'>, 'type': <class 'type'>, 'zip': <class 'zip'>, '__debug__': True, 'BaseException': <class 'BaseException'>, 'Exception': <class 'Exception'>, 'TypeError': <class 'TypeError'>, 'StopAsyncIteration': <class 'StopAsyncIteration'>, 'StopIteration': <class 'StopIteration'>, 'GeneratorExit': <class 'GeneratorExit'>, 'SystemExit': <class 'SystemExit'>, 'KeyboardInterrupt': <class 'KeyboardInterrupt'>, 'ImportError': <class 'ImportError'>, 'ModuleNotFoundError': <class 'ModuleNotFoundError'>, 'OSError': <class 'OSError'>, 'EnvironmentError': <class 'OSError'>, 'IOError': <class 'OSError'>, 'EOFError': <class 'EOFError'>, 'RuntimeError': <class 'RuntimeError'>, 'RecursionError': <class 'RecursionError'>, 'NotImplementedError': <class 'NotImplementedError'>, 'NameError': <class 'NameError'>, 'UnboundLocalError': <class 'UnboundLocalError'>, 'AttributeError': <class 'AttributeError'>, 'SyntaxError': <class 'SyntaxError'>, 'IndentationError': <class 'IndentationError'>, 'TabError': <class 'TabError'>, 'LookupError': <class 'LookupError'>, 'IndexError': <class 'IndexError'>, 'KeyError': <class 'KeyError'>, 'ValueError': <class 'ValueError'>, 'UnicodeError': <class 'UnicodeError'>, 'UnicodeEncodeError': <class 'UnicodeEncodeError'>, 'UnicodeDecodeError': <class 'UnicodeDecodeError'>, 'UnicodeTranslateError': <class 'UnicodeTranslateError'>, 'AssertionError': <class 'AssertionError'>, 'ArithmeticError': <class 'ArithmeticError'>, 'FloatingPointError': <class 'FloatingPointError'>, 'OverflowError': <class 'OverflowError'>, 'ZeroDivisionError': <class 'ZeroDivisionError'>, 'SystemError': <class 'SystemError'>, 'ReferenceError': <class 'ReferenceError'>, 'MemoryError': <class 'MemoryError'>, 'BufferError': <class 'BufferError'>, 'Warning': <class 'Warning'>, 'UserWarning': <class 'UserWarning'>, 'DeprecationWarning': <class 'DeprecationWarning'>, 'PendingDeprecationWarning': <class 'PendingDeprecationWarning'>, 'SyntaxWarning': <class 'SyntaxWarning'>, 'RuntimeWarning': <class 'RuntimeWarning'>, 'FutureWarning': <class 'FutureWarning'>, 'ImportWarning': <class 'ImportWarning'>, 'UnicodeWarning': <class 'UnicodeWarning'>, 'BytesWarning': <class 'BytesWarning'>, 'ResourceWarning': <class 'ResourceWarning'>, 'ConnectionError': <class 'ConnectionError'>, 'BlockingIOError': <class 'BlockingIOError'>, 'BrokenPipeError': <class 'BrokenPipeError'>, 'ChildProcessError': <class 'ChildProcessError'>, 'ConnectionAbortedError': <class 'ConnectionAbortedError'>, 'ConnectionRefusedError': <class 'ConnectionRefusedError'>, 'ConnectionResetError': <class 'ConnectionResetError'>, 'FileExistsError': <class 'FileExistsError'>, 'FileNotFoundError': <class 'FileNotFoundError'>, 'IsADirectoryError': <class 'IsADirectoryError'>, 'NotADirectoryError': <class 'NotADirectoryError'>, 'InterruptedError': <class 'InterruptedError'>, 'PermissionError': <class 'PermissionError'>, 'ProcessLookupError': <class 'ProcessLookupError'>, 'TimeoutError': <class 'TimeoutError'>, 'open': <built-in function open>, 'quit': Use quit() or Ctrl-D (i.e. EOF) to exit, 'exit': Use exit() or Ctrl-D (i.e. EOF) to exit, 'copyright': Copyright (c) 2001-2019 Python Software Foundation.
+All Rights Reserved.
+
+Copyright (c) 2000 BeOpen.com.
+All Rights Reserved.
+
+Copyright (c) 1995-2001 Corporation for National Research Initiatives.
+All Rights Reserved.
+
+Copyright (c) 1991-1995 Stichting Mathematisch Centrum, Amsterdam.
+All Rights Reserved., 'credits':     Thanks to CWI, CNRI, BeOpen.com, Zope Corporation and a cast of thousands
+    for supporting Python development.  See www.python.org for more information., 'license': Type license() to see the full license text, 'help': Type help() for interactive help, or help(object) for help about object., '__pybind11_internals_v4_gcc_libstdcpp_cxxabi1011__': <capsule object NULL at 0x7f63e0c96390>}, 'torch': <module 'torch' from '/opt/conda/envs/python35-paddle120-env/lib/python3.7/site-packages/torch/__init__.py'>, 'data_root': '/home/aistudio/data', 'checkpoint_dir': './checkpoints', 'log_dir': './logs', 'batch_size': 64, 'num_workers': 2, 'num_epochs': 30, 'learning_rate': 0.001, 'momentum': 0.9, 'weight_decay': 0.0005, 'num_classes': 10, 'model_name': 'resnet18', 'device': device(type='cpu')}
+2026-02-25 19:52:14,917 - INFO - 使用设备: cpu
+2026-02-25 19:52:16,697 - INFO - 训练集批次: 782, 验证集批次: 157
+2026-02-25 19:52:17,244 - INFO - 模型: resnet18
+2026-02-25 19:52:17,341 - WARNING - 未找到权重文件 ./checkpoints/last_checkpoint.pth.tar
+2026-02-25 19:52:17,341 - INFO - 起始epoch: 0, 当前最佳准确率: 0.00%
+2026-02-25 19:52:17,342 - INFO - Epoch 1/30
+2026-02-25 20:16:15,748 - INFO - Train Loss: 1.1906, Train Acc: 58.12%
+2026-02-25 20:17:20,753 - INFO - Val Loss: 0.8270, Val Acc: 71.63%
+2026-02-25 20:17:21,062 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-25 20:17:21,062 - INFO - 发现新的最佳模型，准确率 71.63%，已保存
+2026-02-25 20:17:21,062 - INFO - Epoch 2/30
+2026-02-25 20:41:43,154 - INFO - Train Loss: 0.8305, Train Acc: 71.14%
+2026-02-25 20:43:00,552 - INFO - Val Loss: 0.6876, Val Acc: 76.28%
+2026-02-25 20:43:00,897 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-25 20:43:00,898 - INFO - 发现新的最佳模型，准确率 76.28%，已保存
+2026-02-25 20:43:00,898 - INFO - Epoch 3/30
+2026-02-25 21:07:51,349 - INFO - Train Loss: 0.7163, Train Acc: 75.02%
+2026-02-25 21:09:11,755 - INFO - Val Loss: 0.6259, Val Acc: 78.29%
+2026-02-25 21:09:12,096 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-25 21:09:12,096 - INFO - 发现新的最佳模型，准确率 78.29%，已保存
+2026-02-25 21:09:12,096 - INFO - Epoch 4/30
+2026-02-25 21:33:42,256 - INFO - Train Loss: 0.6461, Train Acc: 77.64%
+2026-02-25 21:34:44,358 - INFO - Val Loss: 0.5763, Val Acc: 79.88%
+2026-02-25 21:34:44,747 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-25 21:34:44,748 - INFO - 发现新的最佳模型，准确率 79.88%，已保存
+2026-02-25 21:34:44,748 - INFO - Epoch 5/30
+2026-02-25 21:59:02,757 - INFO - Train Loss: 0.5968, Train Acc: 79.14%
+2026-02-25 22:00:12,456 - INFO - Val Loss: 0.5439, Val Acc: 81.60%
+2026-02-25 22:00:12,879 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-25 22:00:12,879 - INFO - 发现新的最佳模型，准确率 81.60%，已保存
+2026-02-25 22:00:13,164 - INFO - 模型已保存至 ./checkpoints/last_checkpoint.pth.tar
+2026-02-25 22:00:13,164 - INFO - Epoch 6/30
+2026-02-25 22:24:24,755 - INFO - Train Loss: 0.5572, Train Acc: 80.65%
+2026-02-25 22:25:38,148 - INFO - Val Loss: 0.5395, Val Acc: 81.44%
+2026-02-25 22:25:38,149 - INFO - Epoch 7/30
+2026-02-25 22:49:39,958 - INFO - Train Loss: 0.5246, Train Acc: 81.82%
+2026-02-25 22:50:46,452 - INFO - Val Loss: 0.5267, Val Acc: 81.78%
+2026-02-25 22:50:46,842 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-25 22:50:46,842 - INFO - 发现新的最佳模型，准确率 81.78%，已保存
+2026-02-25 22:50:46,842 - INFO - Epoch 8/30
+2026-02-25 23:15:10,052 - INFO - Train Loss: 0.4965, Train Acc: 82.67%
+2026-02-25 23:16:28,751 - INFO - Val Loss: 0.5167, Val Acc: 82.50%
+2026-02-25 23:16:29,098 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-25 23:16:29,098 - INFO - 发现新的最佳模型，准确率 82.50%，已保存
+2026-02-25 23:16:29,098 - INFO - Epoch 9/30
+2026-02-25 23:40:43,861 - INFO - Train Loss: 0.4721, Train Acc: 83.49%
+2026-02-25 23:42:03,468 - INFO - Val Loss: 0.4939, Val Acc: 83.29%
+2026-02-25 23:42:03,838 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-25 23:42:03,838 - INFO - 发现新的最佳模型，准确率 83.29%，已保存
+2026-02-25 23:42:03,839 - INFO - Epoch 10/30
+2026-02-26 00:06:06,646 - INFO - Train Loss: 0.4518, Train Acc: 84.15%
+2026-02-26 00:07:09,349 - INFO - Val Loss: 0.4991, Val Acc: 83.07%
+2026-02-26 00:07:09,688 - INFO - 模型已保存至 ./checkpoints/last_checkpoint.pth.tar
+2026-02-26 00:07:09,689 - INFO - Epoch 11/30
+2026-02-26 00:31:30,754 - INFO - Train Loss: 0.4011, Train Acc: 85.91%
+2026-02-26 00:32:39,951 - INFO - Val Loss: 0.4741, Val Acc: 84.00%
+2026-02-26 00:32:40,278 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-26 00:32:40,278 - INFO - 发现新的最佳模型，准确率 84.00%，已保存
+2026-02-26 00:32:40,278 - INFO - Epoch 12/30
+2026-02-26 00:57:18,163 - INFO - Train Loss: 0.3835, Train Acc: 86.35%
+2026-02-26 00:58:37,251 - INFO - Val Loss: 0.4666, Val Acc: 84.07%
+2026-02-26 00:58:37,598 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-26 00:58:37,598 - INFO - 发现新的最佳模型，准确率 84.07%，已保存
+2026-02-26 00:58:37,598 - INFO - Epoch 13/30
+2026-02-26 01:23:13,656 - INFO - Train Loss: 0.3818, Train Acc: 86.38%
+2026-02-26 01:24:22,246 - INFO - Val Loss: 0.4655, Val Acc: 84.29%
+2026-02-26 01:24:22,741 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-26 01:24:22,741 - INFO - 发现新的最佳模型，准确率 84.29%，已保存
+2026-02-26 01:24:22,741 - INFO - Epoch 14/30
+2026-02-26 01:48:46,656 - INFO - Train Loss: 0.3742, Train Acc: 86.69%
+2026-02-26 01:49:55,455 - INFO - Val Loss: 0.4675, Val Acc: 84.32%
+2026-02-26 01:49:55,795 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-26 01:49:55,795 - INFO - 发现新的最佳模型，准确率 84.32%，已保存
+2026-02-26 01:49:55,795 - INFO - Epoch 15/30
+2026-02-26 02:14:28,367 - INFO - Train Loss: 0.3681, Train Acc: 87.00%
+2026-02-26 02:15:45,445 - INFO - Val Loss: 0.4658, Val Acc: 84.33%
+2026-02-26 02:15:45,782 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-26 02:15:45,783 - INFO - 发现新的最佳模型，准确率 84.33%，已保存
+2026-02-26 02:15:46,111 - INFO - 模型已保存至 ./checkpoints/last_checkpoint.pth.tar
+2026-02-26 02:15:46,112 - INFO - Epoch 16/30
+2026-02-26 02:40:25,456 - INFO - Train Loss: 0.3636, Train Acc: 87.20%
+2026-02-26 02:41:32,849 - INFO - Val Loss: 0.4653, Val Acc: 84.66%
+2026-02-26 02:41:33,193 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-26 02:41:33,194 - INFO - 发现新的最佳模型，准确率 84.66%，已保存
+2026-02-26 02:41:33,194 - INFO - Epoch 17/30
+2026-02-26 03:07:45,148 - INFO - Train Loss: 0.3615, Train Acc: 87.29%
+2026-02-26 03:08:53,054 - INFO - Val Loss: 0.4644, Val Acc: 84.54%
+2026-02-26 03:08:53,054 - INFO - Epoch 18/30
+2026-02-26 03:31:48,154 - INFO - Train Loss: 0.3577, Train Acc: 87.28%
+2026-02-26 03:32:55,050 - INFO - Val Loss: 0.4588, Val Acc: 84.84%
+2026-02-26 03:32:55,393 - INFO - 模型已保存至 ./checkpoints/best_model.pth.tar
+2026-02-26 03:32:55,393 - INFO - 发现新的最佳模型，准确率 84.84%，已保存
+2026-02-26 03:32:55,393 - INFO - Epoch 19/30
+2026-02-26 03:57:01,052 - INFO - Train Loss: 0.3513, Train Acc: 87.82%
+2026-02-26 03:58:06,848 - INFO - Val Loss: 0.4615, Val Acc: 84.59%
+2026-02-26 03:58:06,848 - INFO - Epoch 20/30
